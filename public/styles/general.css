@@ -1,0 +1,32 @@
+.card-img-top {
+    height: 400px; /* Задайте желаемую высоту */
+    object-fit: contain; /* Изображение будет помещено целиком */
+}
+
+.card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;       
+    text-overflow: ellipsis;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+

@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Товары категории: {{category.name}}</h1>
+    <div class="row">
+        {{#each products}}
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{this.image}}" class="card-img-top" alt="{{this.name}}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{this.name}}</h5>
+                        <p class="card-text">Цена: {{this.price}} грн.</p>
+                        <a href="/products/{{this.id}}" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        {{else}}
+            <p>Нет товаров в этой категории.</p>
+        {{/each}}
+    </div>
+</div>

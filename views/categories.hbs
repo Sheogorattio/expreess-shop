@@ -1,0 +1,8 @@
+<div class="container">
+    <h1>Категории товаров</h1>
+    <ul>
+        {{#each categories}}
+            <li><a href="/categories/{{this.id}}">{{this.name}}</a></li>
+        {{/each}}
+    </ul>
+</div>

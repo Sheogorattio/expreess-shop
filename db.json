@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "TAMA Imperialstar 5-Piece Drum Set - 22/14SD/16FT/12/10, Hardware, Throne, Coffee Teak Wrap",
+      "price": 51888.51,
+      "image": "/images/tama-imperoalstar-5-piece.webp",
+      "categoryId": 3
+    },
+    {
+      "id": "11fa",
+      "name": "Yamaha YCL650II Clarinet",
+      "price": 14999,
+      "image": "/images/yamaha-ycl650II-clarinet.webp",
+      "categoryId": 4
+    },
+    {
+      "id": "4cb4",
+      "name": "Fender Vintera II '60s Stratocaster - Rosewood, Olympic White",
+      "price": 54999,
+      "image": "/images/fender-vintera-II-60s-stratocaster--rosewood-olympic-white.webp",
+      "categoryId": 1
+    },
+    {
+      "id": "8268",
+      "name": "Bach Centennial 42BOF Professional Tenor Trombone - Bb/F",
+      "price": 29999,
+      "image": "/images/bach-centennial-42Bof-professional-tenor-trombone-bb-f.webp",
+      "categoryId": 4
+    },
+    {
+      "id": "94b6",
+      "name": "Yamaha YAH-803 NEO Alto Horn - Silver Plating",
+      "price": 90999,
+      "image": "/images/yamaha-yah-803-neo-alto-horn-silver-plating.webp",
+      "categoryId": 4
+    },
+    {
+      "id": "42d5",
+      "name": "Selmer Series II Jubilee Soprano Saxophone",
+      "price": 40999,
+      "image": "/images/selmer-series-II-jubilee-soprano-saxophone.webp",
+      "categoryId": 4
+    },
+    {
+      "id": "1bbc",
+      "name": "Shure BLX24/SM58 Wireless Handheld Microphone System - H9 Band",
+      "price": 19999,
+      "image": "/images/shure-blx24-sm58-wireless-handheld-microphone-system-h9-band.webp",
+      "categoryId": 5
+    },
+    {
+      "id": "6eae",
+      "name": "Roland SYSTEM-8 Plug-Out Synthesizer",
+      "price": 102999,
+      "image": "/images/roland-system-8-plug-out -synthesizer.webp",
+      "categoryId": 2
+    },
+    {
+      "id": "e8d9",
+      "name": "Gon Bops AACJSE Alex Acuna Special Edition Cajon",
+      "price": 20999,
+      "image": "/images/gon-bops-aacjse-alex-acuna-special-edition-cajon.webp",
+      "categoryId": 3
+    },
+    {
+      "id": "0f8a",
+      "name": "Gibson SG Standard '61 Maestro Vibrola - Vintage Cherry",
+      "price": 30000,
+      "image": "/images/gibson-sg-standard-61-maestro-vibrola-vintage-cherry.webp",
+      "categoryId": 1
+    },
+    {
+      "id": "2333",
+      "name": "Yamaha CVP-905 Clavinova Digital Upright Piano with Bench",
+      "price": 123999,
+      "image": "/images/yamaha-cvp-905-clavinova-digital-upright-piano-with-bench.webp",
+      "categoryId": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Струнные"
+    },
+    {
+      "id": 2,
+      "name": "Клавишные"
+    },
+    {
+      "id": 3,
+      "name": "Ударные"
+    },
+    {
+      "id": 4,
+      "name": "Духовые"
+    },
+    {
+      "id": 5,
+      "name": "Электроника"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2",
+      "email": "user2@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@gmail.com"
+    }
+  ]
+}

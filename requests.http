@@ -1,0 +1,13 @@
+GET http://localhost:4200
+
+###
+
+GET http://localhost:4200/products
+
+###
+
+POST  http://localhost:4200/products 
+
+###
+
+GET http://localhost:4200/products/6
