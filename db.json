@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 3,
+      "id": "3",
       "name": "TAMA Imperialstar 5-Piece Drum Set - 22/14SD/16FT/12/10, Hardware, Throne, Coffee Teak Wrap",
       "price": 51888.51,
       "image": "/images/tama-imperoalstar-5-piece.webp",
@@ -80,44 +80,44 @@
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Струнные"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Клавишные"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Ударные"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Духовые"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Электроника"
     }
   ],
   "users": [
     {
-      "id": 1,
-      "username": "user1",
-      "password": "password1",
-      "email": "user1@gmail.com"
-    },
-    {
-      "id": 2,
-      "username": "user2",
-      "password": "password2",
-      "email": "user2@gmail.com"
-    },
-    {
-      "id": 3,
+      "id": "8751",
       "username": "admin",
-      "password": "admin123",
-      "email": "admin@gmail.com"
+      "email": "admin@admin.gmail.com",
+      "password": "$2b$10$/KCB2tc4f7q6E38GyDs8iux4mQUeAqHhN3oO4FNyT0fo3miXP6Vti"
+    },
+    {
+      "id": "d5ea",
+      "username": "cisco.appreciator@gmail.com",
+      "email": "cisco.appreciator@gmail.com",
+      "password": "$2b$10$heetn/..R65uku6g9SPEZ.agXGi0LI0TKhJcIwpLHe9/xiiKECQRS"
+    },
+    {
+      "id": "dcde",
+      "username": "Riba_ue59",
+      "email": "rybak.dmytro.ua@gmail.com",
+      "password": "$2b$10$eW/SzAs98uiCbNjIYF9fzukeiPG4D2aLukc0XhY/OVmTEyCgHRHj2"
     }
   ]
 }

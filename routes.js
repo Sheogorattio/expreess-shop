@@ -1,5 +1,6 @@
 import { Router } from "express";
 import axios from "axios";
+import {registerUser} from "./middlewares/user-middleware.js";
 
 const API_URL = process.env.API_URL;
 const routes = Router();
@@ -144,5 +145,27 @@ routes.route('/users/:id')
         res.status(500).send('Ошибка при удалении пользователя');
     }
 });
+
+routes.route('/signin')
+.get((req, res)=> {
+    res.render("signin");
+})
+
+routes.route("/signup")
+.get((req,res) => {
+    res.render("signup");
+})
+.post( registerUser, (req, res)=> {
+    req.session.user = {
+        username: req.body.username
+    };
+    res.redirect('/');
+})
+
+routes.route("/logout")
+.get((req,res) => {
+    req.session.destroy();
+    res.redirect("/");
+})
 
 export default routes;

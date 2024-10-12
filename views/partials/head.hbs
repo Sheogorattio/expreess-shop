@@ -18,7 +18,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">Контакты</a>
                 </li>
+                {{#if user}}
+                {{else}}
+                <li class="nav-item">
+                    <a class="nav-link" href="/signin">Sign in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup">Sign up</a>
+                </li>
+                {{/if}}
+                
             </ul>
         </div>
+        {{#if user}}<div>Hello {{user}}! <a href="/logout">Logout</a></div>{{/if}}
     </div>
 </header>
